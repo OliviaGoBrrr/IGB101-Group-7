@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Olivia Shepherd/Scenes/IGB101 Assignment 1 OliviaShepherd.unity
+    path: Assets/Scenes/IGB101 Assignment 1 OliviaShepherd.unity
     guid: 48bd49923a3fa5246b0ce10cc426befa
   m_configObjects: {}
