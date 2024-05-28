@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Group7Main/Assets/Olivia Shepherd/Materials/Normal Maps.meta
 guid: 4c3d95b128d11a341848c52739416815
+========
+guid: e324abb3fd7477548acb35282995f482
+>>>>>>>> main:Group7Main/Assets/Olivia Shepherd/Models and Prefabs/Walls and Floors/Models/Decorations.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
