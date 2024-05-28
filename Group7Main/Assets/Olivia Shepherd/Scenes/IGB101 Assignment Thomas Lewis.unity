@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.029087335, g: 0.0298977, b: 0.029896773, a: 1}
+  m_IndirectSpecularColor: {r: 0.18827617, g: 0.19113809, b: 0.19109794, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -23983,7 +23983,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1877288007281334, guid: fe3e20587f095e840aef1d01d2d00ebf, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1593560096}
+      addedObject: {fileID: 1593560100}
   m_SourcePrefab: {fileID: 100100000, guid: fe3e20587f095e840aef1d01d2d00ebf, type: 3}
 --- !u!4 &181365622 stripped
 Transform:
@@ -24092,7 +24092,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 274676326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &287901710
@@ -26714,7 +26714,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 533574692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &568422827
@@ -26806,15 +26806,13 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
+  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
-  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
-  m_UseCustomTrailVertexStreams: 0
-  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -31884,7 +31882,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 618552399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34bf4c9f8e9b12940ad1e42072f7205a, type: 3}
+  m_Script: {fileID: 11500000, guid: addda9f2c11d5794dbf35a7a786c3751, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!111 &618552401
@@ -78767,7 +78765,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 666558291}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &681145587
@@ -78917,15 +78915,13 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
+  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
-  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
-  m_UseCustomTrailVertexStreams: 0
-  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -83889,18 +83885,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 858586436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83a21fbf51e18e344b69e3d038d5cf5c, type: 3}
+  m_Script: {fileID: 11500000, guid: d0d85c2a7819feb498cc796b1db29b01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraTarget: {fileID: 1707672836}
-  cameraSpeed: 5
-  invert: 0
-  upAngleView: 45
-  downAngleView: 65
-  MaxViewDistance: 15
-  MinViewDistance: 1
-  ZoomRate: 20
-  cameraTargetHeight: 1
+  cameraNodes: []
+  objects: []
+  moveSpeed: 5
+  rotSpeed: 5
 --- !u!81 &858586439
 AudioListener:
   m_ObjectHideFlags: 0
@@ -84268,15 +84259,13 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
+  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
-  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
-  m_UseCustomTrailVertexStreams: 0
-  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -89402,10 +89391,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1029742954}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8c35bcf55985644e96b12b3024695a7, type: 3}
+  m_Script: {fileID: 11500000, guid: d0d1f78d62541d9499a85fe67fa61530, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: IGB101 Assignment Thomas Lewis
+  nextLevel: 
 --- !u!65 &1029742958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89596,7 +89585,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1188526640}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1227772705
@@ -90636,19 +90625,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1506751675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e4d6e6d7d6068540810bde1acee21a5, type: 3}
+  m_Script: {fileID: 11500000, guid: e977feac0d3883846b9e92b5083332f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 184424642}
   currentPickups: 0
-  maxPickups: 5
+  maxPickups: 7
   levelComplete: 0
   pickupText: {fileID: 772162240}
   audioSources:
-  - {fileID: 1688920456}
-  - {fileID: 2095708101}
-  - {fileID: 2007725323}
   - {fileID: 1926958322}
+  - {fileID: 2007725323}
+  - {fileID: 2095708101}
+  - {fileID: 1688920456}
   audioProximity: 5
 --- !u!4 &1506751677
 Transform:
@@ -90917,7 +90906,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4496846080461374, guid: fe3e20587f095e840aef1d01d2d00ebf, type: 3}
   m_PrefabInstance: {fileID: 169299490}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1593560096
+--- !u!114 &1593560100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90926,7 +90915,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1417808273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1595320905 stripped
@@ -91057,7 +91046,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -91144,17 +91133,12 @@ Transform:
   m_GameObject: {fileID: 1688920455}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.95149, y: 0.12796947, z: -1.0170738}
+  m_LocalPosition: {x: 2.95149, y: 0.12796947, z: -1.0187}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 519319634}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1707672836 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1956471347963296720, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
-  m_PrefabInstance: {fileID: 315492239}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1744680476 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4154935858149274, guid: 257da2bf42c7e17479fa4bb25194bfc4, type: 3}
@@ -91495,7 +91479,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 1.01
+  MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -91645,7 +91629,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1172838982}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2007725322
@@ -91683,10 +91667,10 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -91790,7 +91774,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2027938614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2046992636
@@ -91942,7 +91926,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
