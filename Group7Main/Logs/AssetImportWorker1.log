@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/n10492151/Desktop/Assessment 3 IGB101
+C:/Users/n11960302/Documents/GitHub/IGB101-Group-7/Group7Main
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53694
-Successfully changed project path to: C:/Users/n10492151/Desktop/Assessment 3 IGB101
-C:/Users/n10492151/Desktop/Assessment 3 IGB101
+63431
+Successfully changed project path to: C:/Users/n11960302/Documents/GitHub/IGB101-Group-7/Group7Main
+C:/Users/n11960302/Documents/GitHub/IGB101-Group-7/Group7Main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/n10492151/Desktop/Assessment 3 IGB101
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2808] Host "[IP] 131.181.110.98 [Port] 0 [Flags] 2 [Guid] 3837533324 [EditorId] 3837533324 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17716] Host "[IP] 131.181.110.93 [Port] 0 [Flags] 2 [Guid] 32818866 [EditorId] 32818866 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2808] Host "[IP] 131.181.110.98 [Port] 0 [Flags] 2 [Guid] 3837533324 [EditorId] 3837533324 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17716] Host "[IP] 131.181.110.93 [Port] 0 [Flags] 2 [Guid] 32818866 [EditorId] 32818866 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 14.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 12.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/n10492151/Desktop/Assessment 3 IGB101/Assets
+[Subsystems] Discovering subsystems at path C:/Users/n11960302/Documents/GitHub/IGB101-Group-7/Group7Main/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,43 +70,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005798 seconds.
-- Loaded All Assemblies, in  1.032 seconds
+Registered in 0.005283 seconds.
+- Loaded All Assemblies, in  0.270 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.216 seconds
-Domain Reload Profiling: 1246ms
-	BeginReloadAssembly (793ms)
+- Finished resetting the current domain, in  0.195 seconds
+Domain Reload Profiling: 465ms
+	BeginReloadAssembly (89ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (136ms)
-		LoadAssemblies (789ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (87ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (134ms)
-			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (120ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (91ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (216ms)
+	FinalizeReload (196ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (162ms)
+		SetupLoadedEditorAssemblies (152ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadAttributes (98ms)
 			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -116,56 +116,77 @@ Domain Reload Profiling: 1246ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.480 seconds
-Refreshing native plugins compatible for Editor in 8.87 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.020 seconds
+Refreshing native plugins compatible for Editor in 13.50 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.555 seconds
-Domain Reload Profiling: 1033ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.806 seconds
+Domain Reload Profiling: 1807ms
+	BeginReloadAssembly (271ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (288ms)
-		LoadAssemblies (251ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (165ms)
+	LoadAllAssembliesAndSetupDomain (455ms)
+		LoadAssemblies (487ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (102ms)
-			TypeCache.Refresh (84ms)
-				TypeCache.ScanAssembly (68ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (555ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (806ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (434ms)
+		SetupLoadedEditorAssemblies (574ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (241ms)
-			ProcessInitializeOnLoadMethodAttributes (125ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 11.64 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 12.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2913 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (110.0 KB). Loaded Objects now: 3366.
-Memory consumption went from 193.8 MB to 193.7 MB.
-Total: 5.255800 ms (FindLiveObjects: 0.178600 ms CreateObjectMapping: 0.089200 ms MarkObjects: 4.863700 ms  DeleteObjects: 0.123400 ms)
+Unloading 89 unused Assets / (2.1 MB). Loaded Objects now: 3334.
+Memory consumption went from 120.0 MB to 117.9 MB.
+Total: 5.247300 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.094100 ms MarkObjects: 4.304700 ms  DeleteObjects: 0.668600 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (2.1 MB). Loaded Objects now: 3334.
+Memory consumption went from 74.3 MB to 72.3 MB.
+Total: 5.632000 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.194100 ms MarkObjects: 4.564900 ms  DeleteObjects: 0.627000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -181,137 +202,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 81157.629535 seconds.
-  path: Assets/Elijah Gomez/Models and Prefabs/Corner-Wood (3)(Clone) (2).prefab
-  artifactKey: Guid(ce961c5101e45e240b155947bd5f577b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Models and Prefabs/Corner-Wood (3)(Clone) (2).prefab using Guid(ce961c5101e45e240b155947bd5f577b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23966a43701d193ec18ea03076d9e2b') in 0.104492 seconds
+  Time since last request: 108164.633092 seconds.
+  path: Assets/Ash Tarsilli/ProBuilder Data/Default Color Palette.asset
+  artifactKey: Guid(6e5bbe10abaad604689178de86723d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Tarsilli/ProBuilder Data/Default Color Palette.asset using Guid(6e5bbe10abaad604689178de86723d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a4710618342a0792e5b58acc2f7b74') in 0.731061 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Elijah Gomez/Models and Prefabs/Wall-Stone (1)(Clone).prefab
-  artifactKey: Guid(a24ad6c497e9db347aaccd00aa743581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Models and Prefabs/Wall-Stone (1)(Clone).prefab using Guid(a24ad6c497e9db347aaccd00aa743581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd393168f8974f3ea2654046e9d057cda') in 0.013135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Elijah Gomez/Models and Prefabs/Floor-Stone (2)(Clone) 1.prefab
-  artifactKey: Guid(314b2a2accc56de49bf6da8664881b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Models and Prefabs/Floor-Stone (2)(Clone) 1.prefab using Guid(314b2a2accc56de49bf6da8664881b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ada0d60d649b873b9b7392bf9d5c2e') in 0.032865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Elijah Gomez/Models and Prefabs/Wall-Wood (1)(Clone).prefab
-  artifactKey: Guid(ed5e96602e94b0e45b5ad868cb610aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Models and Prefabs/Wall-Wood (1)(Clone).prefab using Guid(ed5e96602e94b0e45b5ad868cb610aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e49346b7f4ca9529dfc700f08b2da7') in 0.011319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Elijah Gomez/Models and Prefabs/Door-Wood (3)(Clone) 1 1.prefab
-  artifactKey: Guid(3c959fca7106bc74c8eba5694a5723d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Models and Prefabs/Door-Wood (3)(Clone) 1 1.prefab using Guid(3c959fca7106bc74c8eba5694a5723d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f511787d285115863972ca92db877320') in 0.014883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Elijah Gomez/Models and Prefabs/Wall-Stone (11)(Clone).prefab
-  artifactKey: Guid(87effc09e42288848ae84dc5e38feec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Models and Prefabs/Wall-Stone (11)(Clone).prefab using Guid(87effc09e42288848ae84dc5e38feec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a46eb8aaff5aa56bd77f903af4c5816') in 0.007189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Elijah Gomez/Models and Prefabs/Wall-Wood (12)(Clone).prefab
-  artifactKey: Guid(f75ead223ccf6914cb9b54954512c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Models and Prefabs/Wall-Wood (12)(Clone).prefab using Guid(f75ead223ccf6914cb9b54954512c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2be0fcaebbe65aa6385bab955dbb7f') in 0.007269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.014534 seconds.
-  path: Assets/Elijah Gomez/Scenes/Materials and Textures/Floor.mat
-  artifactKey: Guid(a0173ec6aea7d0044922a07ab6fe9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Scenes/Materials and Textures/Floor.mat using Guid(a0173ec6aea7d0044922a07ab6fe9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c62d07cd21cedd0b85585aabe87b8d') in 0.029654 seconds
+  Time since last request: 0.004757 seconds.
+  path: Assets/Ash Tarsilli/Materials/Coat of Arms transparent_1.png
+  artifactKey: Guid(4297d3a5639de2d419f2a5269feae963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Tarsilli/Materials/Coat of Arms transparent_1.png using Guid(4297d3a5639de2d419f2a5269feae963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0edfdd8d2f0bc6c1ae1bc4c58c1ffd') in 2.945907 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Elijah Gomez/Scenes/Materials and Textures/Metal003_2K-JPG_NormalGL.jpg
-  artifactKey: Guid(9b23d97a8892fcc4f9fccd985eedd61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Scenes/Materials and Textures/Metal003_2K-JPG_NormalGL.jpg using Guid(9b23d97a8892fcc4f9fccd985eedd61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9013781c5a66e3bb4099210766da74f1') in 0.015610 seconds
+  Time since last request: 0.577588 seconds.
+  path: Assets/Ash Tarsilli/Materials/coat of arms.mat
+  artifactKey: Guid(df3f1ae86880d5143ab5ea44b9e53505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Tarsilli/Materials/coat of arms.mat using Guid(df3f1ae86880d5143ab5ea44b9e53505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf33a5fadae74ed7b08ba5c1319209f8') in 0.327194 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Elijah Gomez/Scenes/Materials and Textures/Metal003_2K-JPG_NormalDX.jpg
-  artifactKey: Guid(7d9545774f14cc54f95354f3959b8d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Scenes/Materials and Textures/Metal003_2K-JPG_NormalDX.jpg using Guid(7d9545774f14cc54f95354f3959b8d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf8f7b52f045416db8da40b0c0d419f') in 0.010903 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ash Tarsilli/Materials/Coat of Arms transparent.png
+  artifactKey: Guid(d5e722f27f085cd46921199cb6ccc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Tarsilli/Materials/Coat of Arms transparent.png using Guid(d5e722f27f085cd46921199cb6ccc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8a96385074ca409a69ecd28677b90f') in 0.015003 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Elijah Gomez/Scenes/Materials and Textures/Metal003_2K-JPG_Metalness.jpg
-  artifactKey: Guid(d460bd5e4fb81324d9112214af58c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Scenes/Materials and Textures/Metal003_2K-JPG_Metalness.jpg using Guid(d460bd5e4fb81324d9112214af58c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff274ef5b4194bd3f1bdf40132eeb4f') in 0.010539 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ash Tarsilli/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(6ed97e3f18e8e344f889bda71db379dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Tarsilli/ProBuilder Data/Default Material Palette.asset using Guid(6ed97e3f18e8e344f889bda71db379dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a054954d89e4ed6480bc52fddf6a11a4') in 0.004290 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Elijah Gomez/Scenes/Materials and Textures/Metal003_2K-JPG_Color.jpg
-  artifactKey: Guid(70a0f4699f74f394daa4e81e9c1d0c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Scenes/Materials and Textures/Metal003_2K-JPG_Color.jpg using Guid(70a0f4699f74f394daa4e81e9c1d0c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0423684f5964ea4444df61d3fc5919') in 0.010639 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ash Tarsilli/Materials/Logs.mat
+  artifactKey: Guid(2f3d766653cd3b845ab82f1335bc9a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Tarsilli/Materials/Logs.mat using Guid(2f3d766653cd3b845ab82f1335bc9a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e4d83bb4b4ed5c6a1403b4ac294c29') in 0.153203 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Elijah Gomez/Scenes/Materials and Textures/Metal 4.mat
-  artifactKey: Guid(4cebd54f83b346745a62d6a4f15d8f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Scenes/Materials and Textures/Metal 4.mat using Guid(4cebd54f83b346745a62d6a4f15d8f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1db88e9971df2e5c749a47ff8a34121') in 0.150301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Elijah Gomez/Scenes/Materials and Textures/Metal003_2K-JPG_Roughness.jpg
-  artifactKey: Guid(98d2ede00b256ac42808e2772f31b7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Scenes/Materials and Textures/Metal003_2K-JPG_Roughness.jpg using Guid(98d2ede00b256ac42808e2772f31b7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af313d47e783a7d9541d14e2f35a28b1') in 0.010291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Elijah Gomez/Scenes/Materials and Textures/Metal.mat
-  artifactKey: Guid(a8f1e5f95777aa944b024c483efdc9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Scenes/Materials and Textures/Metal.mat using Guid(a8f1e5f95777aa944b024c483efdc9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc3420343a7beb6fc40154ef2f5e6f3') in 0.008761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Elijah Gomez/Scenes/Materials and Textures/vines.png
-  artifactKey: Guid(8e1e082b238a23c4d8a3f18fa283f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Scenes/Materials and Textures/vines.png using Guid(8e1e082b238a23c4d8a3f18fa283f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62d19044bfa991c923d89b67703139d') in 0.010917 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Elijah Gomez/Scenes/Materials and Textures/wood texture copy.png
-  artifactKey: Guid(f7fb11599eef63844af88d4fd8b27de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elijah Gomez/Scenes/Materials and Textures/wood texture copy.png using Guid(f7fb11599eef63844af88d4fd8b27de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bd9eb21341526a3db8820ea89aa14e') in 0.009789 seconds
+  Time since last request: 31.846198 seconds.
+  path: Assets/Olivia Shepherd/Scenes/IGB101 Assignment 1 OliviaShepherd/Lightmap-0_comp_light.exr
+  artifactKey: Guid(253ae013a3ccf0347a008f872e45aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Scenes/IGB101 Assignment 1 OliviaShepherd/Lightmap-0_comp_light.exr using Guid(253ae013a3ccf0347a008f872e45aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d7d03f8b9835c15c249ad195da3f2f') in 0.017083 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
