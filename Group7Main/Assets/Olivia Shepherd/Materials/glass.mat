@@ -13,11 +13,10 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHAPREMULTIPLY_ON
-  - _EMISSION
   - _NORMALMAP
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
@@ -66,7 +65,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BumpScale: 1.5
+    - _BumpScale: 10
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
@@ -83,6 +82,6 @@ Material:
     - _UVSec: 1
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.33333337, g: 0.68737733, b: 1, a: 0}
-    - _EmissionColor: {r: 0.13207549, g: 0.06178001, b: 0.04423283, a: 1}
+    - _Color: {r: 0.42986825, g: 0.81381166, b: 0.8679245, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

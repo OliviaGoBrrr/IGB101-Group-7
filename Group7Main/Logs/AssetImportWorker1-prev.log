@@ -15,7 +15,7 @@ C:/Users/n10492151/Documents/GitHub/IGB101-Group-7/Group7Main
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60006
+59859
 Successfully changed project path to: C:/Users/n10492151/Documents/GitHub/IGB101-Group-7/Group7Main
 C:/Users/n10492151/Documents/GitHub/IGB101-Group-7/Group7Main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/n10492151/Documents/GitHub/IGB101-Group-7/Group7Main
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18456] Host "[IP] 131.181.110.98 [Port] 0 [Flags] 2 [Guid] 3492785176 [EditorId] 3492785176 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17416] Host "[IP] 131.181.110.78 [Port] 0 [Flags] 2 [Guid] 2477286894 [EditorId] 2477286894 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18456] Host "[IP] 131.181.110.98 [Port] 0 [Flags] 2 [Guid] 3492785176 [EditorId] 3492785176 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17416] Host "[IP] 131.181.110.78 [Port] 0 [Flags] 2 [Guid] 2477286894 [EditorId] 2477286894 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 13.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 15.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005200 seconds.
-- Loaded All Assemblies, in  0.894 seconds
+Registered in 0.005039 seconds.
+- Loaded All Assemblies, in  0.266 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.212 seconds
-Domain Reload Profiling: 1105ms
-	BeginReloadAssembly (569ms)
+- Finished resetting the current domain, in  0.209 seconds
+Domain Reload Profiling: 474ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (146ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (115ms)
-		LoadAssemblies (510ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (113ms)
-			TypeCache.Refresh (112ms)
-				TypeCache.ScanAssembly (99ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (88ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (212ms)
+	FinalizeReload (209ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (164ms)
+		SetupLoadedEditorAssemblies (158ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,139 +116,89 @@ Domain Reload Profiling: 1105ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.913 seconds
-Refreshing native plugins compatible for Editor in 10.90 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.495 seconds
+Refreshing native plugins compatible for Editor in 8.40 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.680 seconds
-Domain Reload Profiling: 1590ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.504 seconds
+Domain Reload Profiling: 997ms
+	BeginReloadAssembly (122ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (31ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (699ms)
-		LoadAssemblies (644ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (279ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (94ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (681ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (70ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (505ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (536ms)
+		SetupLoadedEditorAssemblies (389ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (126ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 1.18 seconds
-Refreshing native plugins compatible for Editor in 9.77 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 14.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2913 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (126.1 KB). Loaded Objects now: 3367.
-Memory consumption went from 194.1 MB to 194.0 MB.
-Total: 9.507500 ms (FindLiveObjects: 0.298100 ms CreateObjectMapping: 0.142500 ms MarkObjects: 8.877500 ms  DeleteObjects: 0.187900 ms)
+Unloading 66 unused Assets / (110.0 KB). Loaded Objects now: 3356.
+Memory consumption went from 120.4 MB to 120.3 MB.
+Total: 7.042100 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.132900 ms MarkObjects: 6.444200 ms  DeleteObjects: 0.211800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 110918.155527 seconds.
-  path: Assets/Olivia Shepherd/Materials/wood_mat.mat
-  artifactKey: Guid(9d58e3bd6094914469e5cad8c2efe26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Materials/wood_mat.mat using Guid(9d58e3bd6094914469e5cad8c2efe26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cd57892f13db54d0ae4e616d8224ce') in 0.291476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Olivia Shepherd/Materials/globe_texture.mat
-  artifactKey: Guid(b18afefad0860254682eece2a00e128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Materials/globe_texture.mat using Guid(b18afefad0860254682eece2a00e128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4395bf83de40921ae0226bd4aaa47acc') in 1.190227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 35.243276 seconds.
-  path: Assets/Olivia Shepherd/Concrete/Clean_Concrete_GroundNormal.png
-  artifactKey: Guid(e1edb95d29791ad49a360915f3d37830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Concrete/Clean_Concrete_GroundNormal.png using Guid(e1edb95d29791ad49a360915f3d37830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba09ee1417f897b383ed6bedf2b7bae') in 0.029553 seconds
+  Time since last request: 611.564649 seconds.
+  path: Assets/Olivia Shepherd/Materials/Normal Maps/staircase_normalmap.png
+  artifactKey: Guid(a3f2b0f6cf2de2f43b56f64940467104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Normal Maps/staircase_normalmap.png using Guid(a3f2b0f6cf2de2f43b56f64940467104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce1859eb5649755b3d78dca220e76ec') in 0.067095 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.023363 seconds.
-  path: Assets/Olivia Shepherd/Textures/birchwood.jpg
-  artifactKey: Guid(e540c9bedd2514349ac7ea43c46c5b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Textures/birchwood.jpg using Guid(e540c9bedd2514349ac7ea43c46c5b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75c1c8a4485d093be6c58135168ba9b') in 0.015026 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Olivia Shepherd/Materials/Normal Maps/glass normal map.jpg
+  artifactKey: Guid(413f47a82e26eaf4aa0eec5f9bb535de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Normal Maps/glass normal map.jpg using Guid(413f47a82e26eaf4aa0eec5f9bb535de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276966cd73cf66aca3d11a9e9f2b9add') in 0.015108 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Olivia Shepherd/Textures/clouds.png
-  artifactKey: Guid(fca1d62a39b4f1b44968aef3c05fda1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Textures/clouds.png using Guid(fca1d62a39b4f1b44968aef3c05fda1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34960ef4aa7399ebfde318d937299988') in 0.015859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Olivia Shepherd/Textures/fire-explode-design-free-png.png
-  artifactKey: Guid(e66969d4fcb5e2c41bfb8f61bac705fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Textures/fire-explode-design-free-png.png using Guid(e66969d4fcb5e2c41bfb8f61bac705fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cbee6329d12a00ec5d044048d646b1') in 0.015987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Olivia Shepherd/Textures/fireparticle2.png
-  artifactKey: Guid(a2c4a5dd0d8edd54d80b2ff8821f33e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Textures/fireparticle2.png using Guid(a2c4a5dd0d8edd54d80b2ff8821f33e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9bd72d9f1280dac73d4f9ce8a9247f') in 0.016238 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Olivia Shepherd/Textures/rock texture seamless.jpg
-  artifactKey: Guid(161ed1c6019d1ff478bd356cc41af37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Textures/rock texture seamless.jpg using Guid(161ed1c6019d1ff478bd356cc41af37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae119f2c2c7a14522c5470d644c6133') in 0.012317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Olivia Shepherd/Textures/rock texture seamless normal.jpg
-  artifactKey: Guid(24c82a44ff27f7d478c49f8d1bd372f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Textures/rock texture seamless normal.jpg using Guid(24c82a44ff27f7d478c49f8d1bd372f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe6823958d5569f11857db120046a0e') in 0.016858 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Olivia Shepherd/Materials/Normal Maps/2k_earth_normal_map.tif
+  artifactKey: Guid(a2c6131ec112dca4187e4a2388031b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Normal Maps/2k_earth_normal_map.tif using Guid(a2c6131ec112dca4187e4a2388031b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8742a20cd8bc385b3791e884fdde600') in 0.018091 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

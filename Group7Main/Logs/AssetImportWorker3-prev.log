@@ -9,27 +9,15 @@ C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-<<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3.log
 AssetImportWorker3
 -projectPath
 C:/Users/n10492151/Documents/GitHub/IGB101-Group-7/Group7Main
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-60006
+59859
 Successfully changed project path to: C:/Users/n10492151/Documents/GitHub/IGB101-Group-7/Group7Main
 C:/Users/n10492151/Documents/GitHub/IGB101-Group-7/Group7Main
-========
-AssetImportWorker9
--projectPath
-C:/Users/n11965908/Documents/GitHub/IGB101-Group-7/Group7Main
--logFile
-Logs/AssetImportWorker9.log
--srvPort
-56968
-Successfully changed project path to: C:/Users/n11965908/Documents/GitHub/IGB101-Group-7/Group7Main
-C:/Users/n11965908/Documents/GitHub/IGB101-Group-7/Group7Main
->>>>>>>> main:Group7Main/Logs/AssetImportWorker9.log
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -61,29 +49,16 @@ C:/Users/n11965908/Documents/GitHub/IGB101-Group-7/Group7Main
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3.log
-Player connection [17332] Host "[IP] 131.181.110.98 [Port] 0 [Flags] 2 [Guid] 2400499019 [EditorId] 2400499019 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19632] Host "[IP] 131.181.110.78 [Port] 0 [Flags] 2 [Guid] 2125547658 [EditorId] 2125547658 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17332] Host "[IP] 131.181.110.98 [Port] 0 [Flags] 2 [Guid] 2400499019 [EditorId] 2400499019 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19632] Host "[IP] 131.181.110.78 [Port] 0 [Flags] 2 [Guid] 2125547658 [EditorId] 2125547658 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 13.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 14.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/n10492151/Documents/GitHub/IGB101-Group-7/Group7Main/Assets
-========
-Player connection [22904] Host "[IP] 131.181.110.118 [Port] 0 [Flags] 2 [Guid] 3950311293 [EditorId] 3950311293 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-02) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-
-Player connection [22904] Host "[IP] 131.181.110.118 [Port] 0 [Flags] 2 [Guid] 3950311293 [EditorId] 3950311293 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-02) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 12.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.10f1 (ff3792e53c62)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/n11965908/Documents/GitHub/IGB101-Group-7/Group7Main/Assets
->>>>>>>> main:Group7Main/Logs/AssetImportWorker9.log
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -95,81 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-<<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3.log
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006643 seconds.
-- Loaded All Assemblies, in  0.684 seconds
+Registered in 0.005359 seconds.
+- Loaded All Assemblies, in  0.279 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.235 seconds
-Domain Reload Profiling: 917ms
-	BeginReloadAssembly (460ms)
-========
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005041 seconds.
-- Loaded All Assemblies, in  0.256 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.181 seconds
-Domain Reload Profiling: 435ms
-	BeginReloadAssembly (77ms)
->>>>>>>> main:Group7Main/Logs/AssetImportWorker9.log
+- Finished resetting the current domain, in  0.208 seconds
+Domain Reload Profiling: 486ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-<<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3.log
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (359ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (98ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (235ms)
+	FinalizeReload (208ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (183ms)
-========
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (104ms)
-		LoadAssemblies (76ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (103ms)
-			TypeCache.Refresh (102ms)
-				TypeCache.ScanAssembly (92ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (181ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (140ms)
->>>>>>>> main:Group7Main/Logs/AssetImportWorker9.log
+		SetupLoadedEditorAssemblies (161ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-<<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3.log
-			ProcessInitializeOnLoadAttributes (109ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-========
-			ProcessInitializeOnLoadAttributes (92ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
->>>>>>>> main:Group7Main/Logs/AssetImportWorker9.log
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -178,103 +116,85 @@ Domain Reload Profiling: 435ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-<<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3.log
-- Loaded All Assemblies, in  0.891 seconds
-Refreshing native plugins compatible for Editor in 9.45 ms, found 2 plugins.
-========
-- Loaded All Assemblies, in  0.440 seconds
-Refreshing native plugins compatible for Editor in 8.07 ms, found 2 plugins.
->>>>>>>> main:Group7Main/Logs/AssetImportWorker9.log
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 8.58 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-<<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3.log
-- Finished resetting the current domain, in  0.678 seconds
-Domain Reload Profiling: 1562ms
-	BeginReloadAssembly (139ms)
-========
-- Finished resetting the current domain, in  0.511 seconds
-Domain Reload Profiling: 949ms
-	BeginReloadAssembly (110ms)
->>>>>>>> main:Group7Main/Logs/AssetImportWorker9.log
+- Finished resetting the current domain, in  0.514 seconds
+Domain Reload Profiling: 1024ms
+	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-<<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3.log
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (118ms)
-	RebuildNativeTypeToScriptingClass (94ms)
-	initialDomainReloadingComplete (178ms)
-	LoadAllAssembliesAndSetupDomain (355ms)
-		LoadAssemblies (328ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (279ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (106ms)
-			TypeCache.Refresh (87ms)
-				TypeCache.ScanAssembly (72ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (76ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (679ms)
+	FinalizeReload (514ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (538ms)
-========
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (264ms)
-		LoadAssemblies (240ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (91ms)
-			TypeCache.Refresh (73ms)
-				TypeCache.ScanAssembly (61ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (511ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (400ms)
->>>>>>>> main:Group7Main/Logs/AssetImportWorker9.log
+		SetupLoadedEditorAssemblies (388ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-<<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3.log
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (306ms)
-			ProcessInitializeOnLoadMethodAttributes (138ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 2.94 seconds
-Refreshing native plugins compatible for Editor in 21.00 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 15.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2913 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (118.0 KB). Loaded Objects now: 3367.
-Memory consumption went from 194.1 MB to 194.0 MB.
-Total: 7.190200 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.208700 ms MarkObjects: 6.530000 ms  DeleteObjects: 0.210900 ms)
-========
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (220ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 8.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2913 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (118.0 KB). Loaded Objects now: 3370.
-Memory consumption went from 194.3 MB to 194.2 MB.
-Total: 4.879100 ms (FindLiveObjects: 0.160300 ms CreateObjectMapping: 0.072200 ms MarkObjects: 4.532600 ms  DeleteObjects: 0.112200 ms)
->>>>>>>> main:Group7Main/Logs/AssetImportWorker9.log
+Unloading 66 unused Assets / (118.0 KB). Loaded Objects now: 3356.
+Memory consumption went from 120.4 MB to 120.3 MB.
+Total: 4.946200 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.084900 ms MarkObjects: 4.551900 ms  DeleteObjects: 0.132600 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 611.606373 seconds.
+  path: Assets/Olivia Shepherd/Materials/Normal Maps/flooringNormalMap.png
+  artifactKey: Guid(76719420a15c21c46a590686e1a25d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Normal Maps/flooringNormalMap.png using Guid(76719420a15c21c46a590686e1a25d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44b426ffd0f76a133b521f46806555b') in 0.078315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (50.1 KB). Loaded Objects now: 3361.
+Memory consumption went from 73.3 MB to 73.3 MB.
+Total: 4.939100 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.072300 ms MarkObjects: 4.643000 ms  DeleteObjects: 0.046400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -288,78 +208,72 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-<<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3.log
 ========================================================================
 Received Import Request.
-  Time since last request: 110918.118483 seconds.
-  path: Assets/Olivia Shepherd/Materials/raaaaa.mat
-  artifactKey: Guid(f456f226c39ef6748890542fb5534d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Materials/raaaaa.mat using Guid(f456f226c39ef6748890542fb5534d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887498469650d49589ed510fc5bd41aa') in 0.104093 seconds
+  Time since last request: 547.634310 seconds.
+  path: Assets/Olivia Shepherd/Materials/Textures/birchwood.jpg
+  artifactKey: Guid(e540c9bedd2514349ac7ea43c46c5b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Textures/birchwood.jpg using Guid(e540c9bedd2514349ac7ea43c46c5b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75c1c8a4485d093be6c58135168ba9b') in 0.015874 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Olivia Shepherd/Materials/Coat Of Arms Mat.mat
-  artifactKey: Guid(17f48cb543e32be45b2840ba5bb7ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Materials/Coat Of Arms Mat.mat using Guid(17f48cb543e32be45b2840ba5bb7ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef367bd6682ea10209477dcd9464a1f9') in 0.205597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Olivia Shepherd/Materials/birchwood.mat
-  artifactKey: Guid(118e340d1a7cfbc43a28fdc96b46c336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Materials/birchwood.mat using Guid(118e340d1a7cfbc43a28fdc96b46c336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae02d64a24b592c27bafc2c8680120c') in 0.093968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 36.358761 seconds.
-  path: Assets/Olivia Shepherd/Concrete/Clean_Concrete_GroundSpecular.png
-  artifactKey: Guid(bb0a290543cdccc408266f1a0ce27130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Concrete/Clean_Concrete_GroundSpecular.png using Guid(bb0a290543cdccc408266f1a0ce27130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c80c2e9b6df9c72eca28b2f6c03075') in 0.028373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.025423 seconds.
-  path: Assets/Olivia Shepherd/Textures/birchwood_normal_map.png
-  artifactKey: Guid(bb0c02d95c84b6546be435032f78fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Textures/birchwood_normal_map.png using Guid(bb0c02d95c84b6546be435032f78fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5881cee5426dd8a459621fcc0eba422') in 0.021073 seconds
+  Time since last request: 0.014636 seconds.
+  path: Assets/Olivia Shepherd/Materials/Textures/clouds.png
+  artifactKey: Guid(fca1d62a39b4f1b44968aef3c05fda1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Textures/clouds.png using Guid(fca1d62a39b4f1b44968aef3c05fda1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34960ef4aa7399ebfde318d937299988') in 0.024584 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Olivia Shepherd/Textures/fx_cloud material.mat
-  artifactKey: Guid(5fad71e1652c8da478f608dc760ede96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Textures/fx_cloud material.mat using Guid(5fad71e1652c8da478f608dc760ede96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6a3b7974b32262835b102ab3ff8215') in 0.039671 seconds
+  path: Assets/Olivia Shepherd/Materials/Textures/dark_floor.jpg
+  artifactKey: Guid(5c29fd6ebd7300d4d8cb79149b5732be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Textures/dark_floor.jpg using Guid(5c29fd6ebd7300d4d8cb79149b5732be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822f82b2c92651679262c433dd591d1e') in 0.015529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Olivia Shepherd/Materials/Textures/earth2.jpg
+  artifactKey: Guid(7c8a38bbfde496445925366d5d784a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Textures/earth2.jpg using Guid(7c8a38bbfde496445925366d5d784a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ce16dfbe2dee4b485f2cd794098cd4') in 0.048183 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Olivia Shepherd/Textures/Realistic-burning-fire-flames-on-transparent-background-PNG.png
-  artifactKey: Guid(ad5059f984a8fa7478a9b34a3b6d5ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Textures/Realistic-burning-fire-flames-on-transparent-background-PNG.png using Guid(ad5059f984a8fa7478a9b34a3b6d5ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4210b1311e1529d08fe3a6eff70a50cb') in 0.012879 seconds
+  path: Assets/Olivia Shepherd/Materials/Textures/fire-explode-design-free-png.png
+  artifactKey: Guid(e66969d4fcb5e2c41bfb8f61bac705fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Textures/fire-explode-design-free-png.png using Guid(e66969d4fcb5e2c41bfb8f61bac705fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cbee6329d12a00ec5d044048d646b1') in 0.017038 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Olivia Shepherd/Textures/raaaaa.png
-  artifactKey: Guid(587b93fa287115e4f91ea43f74094334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Olivia Shepherd/Textures/raaaaa.png using Guid(587b93fa287115e4f91ea43f74094334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b015f1d5ff4bd95968df5e3e9da5d1ae') in 0.019045 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Olivia Shepherd/Materials/Textures/fireparticle2.png
+  artifactKey: Guid(a2c4a5dd0d8edd54d80b2ff8821f33e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Textures/fireparticle2.png using Guid(a2c4a5dd0d8edd54d80b2ff8821f33e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9bd72d9f1280dac73d4f9ce8a9247f') in 0.011795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Olivia Shepherd/Materials/Textures/rock texture seamless.jpg
+  artifactKey: Guid(161ed1c6019d1ff478bd356cc41af37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Textures/rock texture seamless.jpg using Guid(161ed1c6019d1ff478bd356cc41af37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae119f2c2c7a14522c5470d644c6133') in 0.011888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Olivia Shepherd/Materials/Textures/wood texture.jpg
+  artifactKey: Guid(f8bca37b51c6a3242a77a88a810b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Textures/wood texture.jpg using Guid(f8bca37b51c6a3242a77a88a810b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42deab6a40e6275a38e988aeb4d17704') in 0.015663 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-========
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
->>>>>>>> main:Group7Main/Logs/AssetImportWorker9.log
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
