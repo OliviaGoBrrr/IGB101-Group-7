@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Ash Tarsilli IGB101 Scene.unity
+    guid: 551d97b481de1d442a9ac61e7e5f0c94
+  - enabled: 1
+    path: Assets/Scenes/IGB101 Assignment 1 Elijah Gomez.unity
+    guid: a83b59172467a6a46aed04689485b52a
+  - enabled: 1
     path: Assets/Scenes/IGB101 Assignment 1 OliviaShepherd.unity
     guid: 48bd49923a3fa5246b0ce10cc426befa
   - enabled: 1
     path: Assets/Scenes/IGB101 Assignment Thomas Lewis.unity
     guid: 9150e8d884f760547b4c701d7036fc25
-  - enabled: 1
-    path: Assets/Scenes/IGB101 Assignment 1 Elijah Gomez.unity
-    guid: a83b59172467a6a46aed04689485b52a
-  - enabled: 1
-    path: Assets/Scenes/Ash Tarsilli IGB101 Scene.unity
-    guid: 551d97b481de1d442a9ac61e7e5f0c94
   m_configObjects: {}

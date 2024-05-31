@@ -62,9 +62,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Door Test.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Olivia Shepherd\Third Person Controller-1\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Ash Tarsilli\Animations\TriggerControl.cs" />
     <Compile Include="Assets\Scripts\LevelSwitch.cs" />
+    <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Scripts\Pickup.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\SpinFree.cs" />

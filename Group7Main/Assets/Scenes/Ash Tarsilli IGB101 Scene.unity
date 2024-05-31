@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: eb5e71d81a343204b8d1a2f6dc5c6e9e, type: 2}
   m_LightingSettings: {fileID: 1835269251}
 --- !u!196 &4
 NavMeshSettings:
@@ -142,11 +142,6 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: cd2ecb50216bef6438267172d464d5ab, type: 3}
   m_PrefabInstance: {fileID: 2113566942}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &33635683 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1956471347963296720, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
-  m_PrefabInstance: {fileID: 127676848}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &34837063
 PrefabInstance:
@@ -1260,6 +1255,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1423580468}
   m_SourcePrefab: {fileID: 100100000, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
+--- !u!4 &127676849 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2664611327373836644, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
+  m_PrefabInstance: {fileID: 127676848}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &139559841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17202,10 +17202,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 820427256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84135fe4bc2b09244b4c42cd57e96795, type: 3}
+  m_Script: {fileID: 11500000, guid: 97662b7be3108c64aa1d6e54f58994a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraTarget: {fileID: 33635683}
+  CameraTarget: {fileID: 127676849}
   cameraSpeed: 5
   invert: 0
   upAngleView: 45
