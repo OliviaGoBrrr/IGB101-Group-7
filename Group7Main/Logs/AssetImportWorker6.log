@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
 OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16004 MB
+=======
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16068 MB
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -9,15 +13,25 @@ C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker3
+AssetImportWorker6
 -projectPath
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
 C:/Users/asht4/OneDrive/Desktop/IGB101-Group-7/Group7Main
+=======
+C:/Users/elija/OneDrive/Documents/Unity Projects/IGB101-Group-7/Group7Main
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 -logFile
-Logs/AssetImportWorker3.log
+Logs/AssetImportWorker6.log
 -srvPort
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
 52106
 Successfully changed project path to: C:/Users/asht4/OneDrive/Desktop/IGB101-Group-7/Group7Main
 C:/Users/asht4/OneDrive/Desktop/IGB101-Group-7/Group7Main
+=======
+61216
+Successfully changed project path to: C:/Users/elija/OneDrive/Documents/Unity Projects/IGB101-Group-7/Group7Main
+C:/Users/elija/OneDrive/Documents/Unity Projects/IGB101-Group-7/Group7Main
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +63,7 @@ C:/Users/asht4/OneDrive/Desktop/IGB101-Group-7/Group7Main
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
 Player connection [4964] Host "[IP] 172.16.3.193 [Port] 0 [Flags] 2 [Guid] 2075141831 [EditorId] 2075141831 [Version] 1048832 [Id] WindowsEditor(7,Jerry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [4964] Host "[IP] 172.16.3.193 [Port] 0 [Flags] 2 [Guid] 2075141831 [EditorId] 2075141831 [Version] 1048832 [Id] WindowsEditor(7,Jerry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -66,10 +81,30 @@ Direct3D:
     Vendor:   Intel
     VRAM:     8002 MB
     Driver:   31.0.101.4953
+=======
+Player connection [36808] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 417295205 [EditorId] 417295205 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-40J54IG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36808] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 417295205 [EditorId] 417295205 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-40J54IG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 10.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/elija/OneDrive/Documents/Unity Projects/IGB101-Group-7/Group7Main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   31.0.15.5212
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -81,11 +116,25 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.238 seconds
 Domain Reload Profiling: 794ms
 	BeginReloadAssembly (186ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005635 seconds.
+- Loaded All Assemblies, in  0.239 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.173 seconds
+Domain Reload Profiling: 411ms
+	BeginReloadAssembly (74ms)
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
 	RebuildCommonClasses (52ms)
 	RebuildNativeTypeToScriptingClass (15ms)
 	initialDomainReloadingComplete (103ms)
@@ -108,6 +157,30 @@ Domain Reload Profiling: 794ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (115ms)
 			ProcessInitializeOnLoadMethodAttributes (47ms)
+=======
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (92ms)
+		LoadAssemblies (73ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (173ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (135ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,21 +189,33 @@ Domain Reload Profiling: 794ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
 - Loaded All Assemblies, in  0.642 seconds
 Refreshing native plugins compatible for Editor in 9.12 ms, found 2 plugins.
+=======
+- Loaded All Assemblies, in  0.428 seconds
+Refreshing native plugins compatible for Editor in 5.27 ms, found 2 plugins.
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
 - Finished resetting the current domain, in  0.648 seconds
 Domain Reload Profiling: 1286ms
 	BeginReloadAssembly (146ms)
+=======
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 905ms
+	BeginReloadAssembly (99ms)
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
 		CreateAndSetChildDomain (22ms)
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (9ms)
@@ -147,10 +232,29 @@ Domain Reload Profiling: 1286ms
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (510ms)
+=======
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (73ms)
+				TypeCache.ScanAssembly (57ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (387ms)
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
 			BeforeProcessingInitializeOnLoad (74ms)
 			ProcessInitializeOnLoadAttributes (267ms)
 			ProcessInitializeOnLoadMethodAttributes (147ms)
@@ -165,6 +269,22 @@ Unloading 2926 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 66 unused Assets / (118.2 KB). Loaded Objects now: 3377.
 Memory consumption went from 125.6 MB to 125.5 MB.
 Total: 9.437300 ms (FindLiveObjects: 0.244600 ms CreateObjectMapping: 0.121400 ms MarkObjects: 8.872800 ms  DeleteObjects: 0.196400 ms)
+=======
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2926 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (118.1 KB). Loaded Objects now: 3384.
+Memory consumption went from 198.7 MB to 198.6 MB.
+Total: 4.575000 ms (FindLiveObjects: 0.138800 ms CreateObjectMapping: 0.050800 ms MarkObjects: 4.266700 ms  DeleteObjects: 0.117900 ms)
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -172,6 +292,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -373,6 +494,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+=======
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -383,30 +506,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
   Time since last request: 8682.243259 seconds.
   path: Assets/Ash Tarsilli/ProBuilder Data/Default Material Palette.asset
   artifactKey: Guid(6ed97e3f18e8e344f889bda71db379dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Ash Tarsilli/ProBuilder Data/Default Material Palette.asset using Guid(6ed97e3f18e8e344f889bda71db379dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e589a5ef12321b37608385ea006a1286') in 0.027085 seconds
+=======
+  Time since last request: 30161.318853 seconds.
+  path: Assets/Olivia Shepherd/Materials/Skyboxes/FS013_Sunset_Cubemap.mat
+  artifactKey: Guid(2b0ee035e6c540241b0977a4f54c7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Skyboxes/FS013_Sunset_Cubemap.mat using Guid(2b0ee035e6c540241b0977a4f54c7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854ba2c2c1c7c504678f790d186a4477') in 0.103222 seconds
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
   Time since last request: 1.332237 seconds.
   path: Assets/Ash Tarsilli/Particles/Fireball.psd
   artifactKey: Guid(e95f90dfeff628840a5345f81975c97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Ash Tarsilli/Particles/Fireball.psd using Guid(e95f90dfeff628840a5345f81975c97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b53cb4e6f863398350497d5e9155259') in 0.061618 seconds
+=======
+  Time since last request: 0.465596 seconds.
+  path: Assets/Olivia Shepherd/Materials/Normal Maps/birchwood_normal_map.png
+  artifactKey: Guid(bb0c02d95c84b6546be435032f78fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Normal Maps/birchwood_normal_map.png using Guid(bb0c02d95c84b6546be435032f78fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da98688e7ecf6cf9ba14a957e762275') in 0.035113 seconds
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
   Time since last request: 0.000020 seconds.
   path: Assets/Ash Tarsilli/Particles/Smoke.mat
   artifactKey: Guid(e69cb904eefea044399c7016b95894b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Ash Tarsilli/Particles/Smoke.mat using Guid(e69cb904eefea044399c7016b95894b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2398864da94b8d82bd1132864e00cec5') in 0.099785 seconds
+=======
+  Time since last request: 0.000021 seconds.
+  path: Assets/Olivia Shepherd/Materials/Normal Maps/glass normal map.jpg
+  artifactKey: Guid(413f47a82e26eaf4aa0eec5f9bb535de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Olivia Shepherd/Materials/Normal Maps/glass normal map.jpg using Guid(413f47a82e26eaf4aa0eec5f9bb535de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276966cd73cf66aca3d11a9e9f2b9add') in 0.020042 seconds
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD:Group7Main/Logs/AssetImportWorker3-prev.log
   Time since last request: 0.181212 seconds.
   path: Assets/Ash Tarsilli/Materials/coat of arms mat.mat
   artifactKey: Guid(07191d72d7044cb47af5c1a4aae53279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -427,6 +572,12 @@ Received Import Request.
   path: Assets/Ash Tarsilli/Materials/Storm Cloud.mat
   artifactKey: Guid(4001fe8cdfedfec45b7ecdbb4df1cdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Ash Tarsilli/Materials/Storm Cloud.mat using Guid(4001fe8cdfedfec45b7ecdbb4df1cdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2c470eb034998ffa7126637878de8c') in 0.039757 seconds
+=======
+  Time since last request: 8.757749 seconds.
+  path: Assets/Thomas Lewis/Textures and materials/Fireball.psd
+  artifactKey: Guid(453863f3068933c4eb9cf83ac5d0e122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas Lewis/Textures and materials/Fireball.psd using Guid(453863f3068933c4eb9cf83ac5d0e122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6382477042c1cd9d6b986e889b67d0ba') in 0.027825 seconds
+>>>>>>> 577c9b835272faeadc4812a14468af6b7b784436:Group7Main/Logs/AssetImportWorker6.log
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
