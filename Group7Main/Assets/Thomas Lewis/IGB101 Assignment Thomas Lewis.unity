@@ -24092,7 +24092,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 274676326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &287901710
@@ -26714,7 +26714,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 533574692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &568422827
@@ -31882,7 +31882,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 618552399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34bf4c9f8e9b12940ad1e42072f7205a, type: 3}
+  m_Script: {fileID: 11500000, guid: addda9f2c11d5794dbf35a7a786c3751, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!111 &618552401
@@ -78765,7 +78765,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 666558291}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &681145587
@@ -83754,7 +83754,7 @@ RectTransform:
   m_GameObject: {fileID: 772162238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1759, y: 1.4373976, z: 3.2271}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1872248581}
@@ -83794,7 +83794,7 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Pickups 0/0
@@ -83853,7 +83853,7 @@ GameObject:
   - component: {fileID: 858586437}
   - component: {fileID: 858586440}
   - component: {fileID: 858586439}
-  - component: {fileID: 858586438}
+  - component: {fileID: 858586441}
   m_Layer: 0
   m_Name: Player Camera
   m_TagString: Untagged
@@ -83876,27 +83876,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 184424646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &858586438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 858586436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83a21fbf51e18e344b69e3d038d5cf5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CameraTarget: {fileID: 1707672836}
-  cameraSpeed: 5
-  invert: 0
-  upAngleView: 45
-  downAngleView: 65
-  MaxViewDistance: 15
-  MinViewDistance: 1
-  ZoomRate: 20
-  cameraTargetHeight: 1
 --- !u!81 &858586439
 AudioListener:
   m_ObjectHideFlags: 0
@@ -83956,6 +83935,27 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &858586441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858586436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97662b7be3108c64aa1d6e54f58994a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraTarget: {fileID: 1707672836}
+  cameraSpeed: 5
+  invert: 0
+  upAngleView: 45
+  downAngleView: 65
+  MaxViewDistance: 15
+  MinViewDistance: 1
+  ZoomRate: 20
+  cameraTargetHeight: 1
 --- !u!1001 &863446968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89590,7 +89590,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1188526640}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1227772705
@@ -89769,11 +89769,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 64711286219793922, guid: d8da2b3a05a19d94e802ecaaf945e2e4, type: 3}
       propertyPath: m_Convex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 64711286219793922, guid: d8da2b3a05a19d94e802ecaaf945e2e4, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 64711286219793922, guid: d8da2b3a05a19d94e802ecaaf945e2e4, type: 3}
       propertyPath: m_ProvidesContacts
@@ -90633,12 +90633,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e977feac0d3883846b9e92b5083332f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 184424642}
   currentPickups: 0
   maxPickups: 5
   levelComplete: 0
   pickupText: {fileID: 772162240}
-  audioSources: []
+  audioSources:
+  - {fileID: 1926958322}
+  - {fileID: 2007725323}
+  - {fileID: 2095708101}
+  - {fileID: 1688920456}
   audioProximity: 5
 --- !u!4 &1506751677
 Transform:
@@ -90916,7 +90920,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1417808273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1595320905 stripped
@@ -91635,7 +91639,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1172838982}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2007725322
@@ -91780,7 +91784,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2027938614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8feed07eaeec69f4790e7bc1ead2232d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dc539ff2011e114bbf723ab9f5b1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2046992636
